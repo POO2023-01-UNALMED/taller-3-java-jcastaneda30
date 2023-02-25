@@ -9,6 +9,9 @@ public class Control {
 	public TV getTv() {
 	return tv;
 	}
+	public Control getControl() {
+		return this;
+	}
 	public void setTV(TV tv) {
 	this.tv=tv;
 	}
