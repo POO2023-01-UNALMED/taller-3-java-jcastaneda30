@@ -52,8 +52,8 @@ public class TV {
 		if(can>=1 && can<=120 && estado==true) {
 			canal=can;}
 	}
-	public static int getNumTV(){
-		return numTV;
+	public static void setNumTV(int num){
+		numTV=num;
 	}
 	public void turnOn() {
 		estado=true;
