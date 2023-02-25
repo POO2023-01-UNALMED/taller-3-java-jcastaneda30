@@ -26,7 +26,7 @@ public class TV {
 		return control;
 	}
 	
-	public void setMarca(Control con) {
+	public void setControl(Control con) {
 		control=con;
 	}
 	public int getPrecio() {
